@@ -58,6 +58,7 @@ a {
 .header .df-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 52px 0 8px;
 }
 
@@ -69,7 +70,7 @@ a {
 
 .header .nav-bar .nav-flex {
     display: flex;
-    margin-left: 221px;
+    /* margin-left: 221px; */
 }
 
 .nav-bar .button-header {
