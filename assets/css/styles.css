@@ -295,6 +295,7 @@ a {
 
 .features {
     margin-top: 51px;
+    padding: 42px 0 79px;
 }
 
 .features .features-info {
@@ -361,7 +362,8 @@ a {
 /* Courses */
 
 .course {
-    margin-top: 130px;
+    margin-top: 51px;
+    padding: 42px 0 79px;
 }
 
 
@@ -501,3 +503,210 @@ a {
     font-weight: 400;
 }
 
+/* Countdow */
+.countdow {
+    margin-top: 186px;
+    padding: 42px 0 79px;
+}
+
+.countdow .df-countdow-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 200px;
+}
+
+.countdow .item-countdow .title-countdow {
+    color: #0D1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.countdow .item-countdow .desc {
+    margin-top: 11px;
+    color: #767E7E;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Feedback */
+.feedback {
+    margin-top: 185px;
+    padding: 42px 0 79px;
+}
+
+.feedback .feedback-list {
+    display: flex;
+    gap: 0 72px;
+}
+
+.feedback .feedback-list .feedback-content-item {
+    width: 36%;
+    padding-top: 36px;
+}
+
+.feedback .feedback-content-item .blockquote {
+    margin-top: 27px;
+    width: 100%;
+    color: #5D6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .feedback-content-item .user {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    gap: 0 4px;
+}
+
+.feedback .feedback-content-item .user .user-fb {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.feedback .feedback-content-item .user .after-user {
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .feedback-content-item .user .after-user::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .feedback-content-item .user .desc {
+    color: #767E7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.feedback .feedback-content-item .ac-btn {
+    margin-top: 52px;
+    display: flex;
+    gap: 0 20px;
+}
+
+
+.feedback .feedback-content-item .ac-btn .control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--btn-primary-color);
+    color: #fff;
+    background: var(--btn-primary-color);
+}
+
+.feedback .feedback-content-item .ac-btn .control-btn i {
+    font-size: 12px;
+}
+
+.feedback .feedback-content-item .ac-btn .control-btn:hover {
+    color: var(--btn-primary-color);
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.feedback .feedback-info-img {
+    width: 58%;
+    position: relative;
+}
+
+.feedback .image-feedback .absolute-img {
+    position: absolute;
+    top: 107px;
+    left: 273px;
+
+}
+
+.feedback .image-feedback .absolute-img >img {
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .image-feedback .absolute-top-left {
+    position: absolute;
+    top: 0;
+    left: 144px;
+}
+
+.feedback .image-feedback .absolute-top-left >img {
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .image-feedback .absolute-right-top {
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+
+.feedback .image-feedback .absolute-right-top >img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .image-feedback .absolute-left-top {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+}
+
+.feedback .image-feedback .absolute-left-top >img {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .image-feedback .absolute-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+}
+
+.feedback .image-feedback .absolute-bottom-left >img {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .image-feedback .absolute-bottom-right {
+    position: absolute;
+    bottom: 29px;
+    right: 32px;
+}
+
+.feedback .image-feedback .absolute-bottom-right >img {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
